@@ -12,6 +12,7 @@ function CreateArea(props) {
     content: ""
   });
 
+
   function handleChange(event) {
     const { name, value } = event.target;
 
@@ -29,7 +30,6 @@ function CreateArea(props) {
       title: "",
       content: ""
     });
-    event.preventDefault();
   }
 
   function triggerExpand() {
